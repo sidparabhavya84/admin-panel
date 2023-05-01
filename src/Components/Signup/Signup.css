@@ -1,0 +1,45 @@
+.auth-one-bg {
+    background-image: url(../../../public/img/bg.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+.auth-one-bg-position {
+    height: 380px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.auth-one-bg .bg-overlay {
+    background: linear-gradient(90deg,#364574,#405189);
+    opacity: .9;
+}
+.bg-overlay {
+    background-color: #000;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.shape {
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.shape>svg {
+    fill: #f3f3f9;
+    fill: #ffffff;
+    height: auto;
+    width: 100%;
+}
+svg {
+    touch-action: none;
+}
